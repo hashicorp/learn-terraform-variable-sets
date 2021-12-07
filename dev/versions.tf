@@ -1,7 +1,7 @@
 terraform {
 
-  backend "remote" {
-    organization = "<ORGANIZATION_NAME>"
+  cloud {
+    organization = "hashicorp-training"
 
     workspaces {
       name = "learn-terraform-cloud-variable-sets-dev"
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = ">= 0.15"
+  required_version = ">= 1.1.0"
 }
