@@ -4,7 +4,7 @@
 terraform {
 
   cloud {
-    organization = "hashicorp-training"
+    organization = "<ORGANIZATION_NAME>"
 
     workspaces {
       name = "learn-terraform-cloud-variable-sets-dev"
