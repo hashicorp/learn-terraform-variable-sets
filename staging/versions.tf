@@ -7,7 +7,7 @@ terraform {
     organization = "<ORGANIZATION_NAME>"
 
     workspaces {
-      name = "learn-terraform-cloud-variable-sets-staging"
+      name = "learn-terraform-variable-sets-staging"
     }
   }
 
