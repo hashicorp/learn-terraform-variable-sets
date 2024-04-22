@@ -9,7 +9,7 @@ provider "aws" {
   default_tags {
     tags = {
       Environment = "dev"
-      Service     = "hashicorp-learn-terraform-cloud-variable-sets"
+      Service     = "hashicorp-learn-terraform-variable-sets"
     }
   }
 }
